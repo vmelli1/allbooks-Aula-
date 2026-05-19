@@ -18,5 +18,5 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("acessa essa api em http://localhost:8000")
+  console.log("Servidor rodando em http://localhost:8000")
 })
